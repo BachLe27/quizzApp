@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@400&display=swap');
+
+* {
+   margin: 0;
+   font-family: 'Georama';
+}
+
+.nav-bar {
+   background-color: #0d1117;
+}
+
+.logo h1 {
+   color: #1659bd;
+   padding: 10px;
+}
+
+hr {
+   width: 97%;
+   margin: auto;
+}
+
+.container {
+   margin: 0 auto;
+   width: 90%;
+   border: 1px solid #0d1117;
+   margin-top: 40px;   
+}
+
+.top-container {
+   display: flex;
+   justify-content: space-between;
+   font-size: 2rem;
+}
+
+.question-tag {
+   margin: 15px;
+   border: 1px solid rgba(26, 26, 25, 0.5);
+   border-radius: 5px;
+   padding: 10px;
+}
+
+.time {
+   margin: 15px;
+   display: flex;
+   align-items: center;
+}
+
+.time p {
+   border: 1px solid rgba(26, 26, 25, 0.5);
+   border-right: none;
+   margin: 0;
+   padding: 5px 15px;
+}
+
+.time .second {
+   border-right: 1px solid rgba(26, 26, 25, 0.5);
+   border-radius: 0 5px 5px 0;
+}
+
+.time .hour {
+   border-radius: 5px 0 0 5px;
+}
+
+.question-container {
+   padding: 5px;
+   font-size: 2rem;
+   border: 1px solid rgba(26, 26, 25, 0.5);
+   background-color: khaki;
+   border-radius: 5px;
+   width: 97%;
+   margin: 0 auto;
+}
+
+#question {
+   padding: 5px;
+   margin-left: 25px;
+}
+
+.noti {
+   padding: 15px;
+   font-size: 1rem;
+}
+
+.answer-container {
+   display: flex;
+   align-items: center;
+}
+
+ul {
+  list-style: none; 
+  margin: 15px;
+  width: 95%;
+}
+
+ul li {
+   margin-left: -20px;
+   margin-right: 20px;
+   padding: 10px;
+   border: 1px solid rgba(26, 26, 25, 0.5);
+   border-bottom: none;
+}
+
+ul li:hover {
+   background-color: rgba(26, 26, 25, 0.5);
+}
+
+.choose {
+   background-color: rgba(105, 112, 106, 0.5);
+}
+
+#D {
+   border-bottom: 1px solid rgba(26, 26, 25, 0.5);
+}
+
+.bottom-container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.btn {
+   margin: 10px;
+   margin-right: 25px;
+   padding: 5px 10px;
+   font-size: 1rem;
+   background-color: #1659bd;
+   color: aliceblue;
+   border: none;
+   border-radius: 5px;
+}
+
+.btn span {
+   margin-left: 10px;
+   padding-left: 8px;
+   border-left: 1px solid rgba(243, 243, 237, 0.8);
+}
+
+.btn:hover {
+   background-color: darkmagenta;
+}
+
+.finish {
+   margin: auto;
+   display: flex;
+   align-items: center;
+}
+
+.hidden {
+   visibility: hidden;
+}
+
+.visible {
+   visibility: visible;
+}
+
+.results {
+   font-weight: bolder;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Quizz App</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+   <div class="nav-bar">
+      <div class="logo">
+         <h1>QuizApp</h1>
+      </div>
+   </div>
+
+   <div class="container">
+      <!-- top-container -->
+      <div class="top-container">
+         <div class="question-tag">
+            <i class="fas fa-info-circle"></i>
+            <span id="question-number"></span>
+         </div>
+
+         <div class="time">
+            <p class="hour">00</p>
+            <p class="minute">04</p>
+            <p class="second">04</p>
+         </div>
+      </div>
+      <!-- question -->
+      <div class="question-container">
+         <p id="question"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ex ipsum sint eum architecto itaque totam commodi debitis facere suscipit nulla repellat assumenda sapiente, voluptatum corporis excepturi, repudiandae pariatur tempore!</p>
+      </div>
+      <!-- answer -->
+      <p class="noti">Please choose one of the following answer:</p>
+      <hr>
+      <div class="answer-container">
+         <ul class="answer">
+            <li id="A" onclick="choose('A')"><b>A.</b> ABC</li>
+            <li id="B" onclick="choose('B')"><b>B.</b> ABC</li>
+            <li id="C" onclick="choose('C')"><b>C.</b> ABC</li>
+            <li id="D" onclick="choose('D')"><b>D.</b> ABC</li>
+         </ul>
+      </div>
+      <hr>
+      <div class="bottom-container">
+         <div class="finish" id="finish">
+            <p class="results" id="results">Correct answer: 10/10</p>
+            <button class="btn" onclick="restart()">Try Again!</button>
+         </div>
+         
+         <button type="submit" class="btn" onclick="next()">
+            Next <span><i class="far fa-arrow-alt-circle-right"></i></span> 
+         </button>
+      </div>
+   </div>
+   
+
+   <script src="script.js"></script>
+</body>
+</html>
